@@ -62,3 +62,10 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import './global/typography';
+@import './components/header';
+@import './components/banner';
+@import './components/footer';
+@import './components/get-involved-menu';
+@import './components/site';

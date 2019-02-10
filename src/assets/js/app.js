@@ -15,3 +15,17 @@ require('foundation-sites');
 
 
 $(document).foundation();
+
+var wrap = $("#js-masthead");
+
+$(function(){
+  $(window).scroll(function(){
+    var aTop = 10;
+    if($(this).scrollTop()>=aTop){
+      wrap.addClass("fix-menu");
+    }
+    else {
+      wrap.removeClass("fix-menu");
+    }
+  });
+});

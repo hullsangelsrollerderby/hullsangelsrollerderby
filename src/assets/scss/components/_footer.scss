@@ -1,0 +1,28 @@
+
+.footer {
+  padding: rem-calc(40);
+  background-color: $ha-green;
+}
+
+.social-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: rem-calc(40);
+}
+
+.aff-wrapper {
+  padding-bottom: rem-calc(40);
+  img, svg {
+    max-height: rem-calc(75);
+    height: 100%;
+    width: auto;
+  }
+  a {
+    padding: rem-calc(20);
+  }
+}
+
+.footer-nav a {
+  color: $white;
+}

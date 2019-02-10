@@ -1,0 +1,46 @@
+
+
+// old
+
+.logo-wrapper, .league-name, .copy-wrapper, .event, .social-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: rem-calc(40);
+
+
+}
+
+.league-name {
+  margin-top: rem-calc(20);
+  text-transform: uppercase;
+}
+
+.copy-wrapper {
+  margin-bottom: rem-calc(40);
+  flex-direction: column;
+}
+
+
+.event {
+  flex-direction: column;
+  h2 {
+    text-align: center;
+    font-size: rem-calc(34);
+  }
+}
+
+.fab {
+  color: white;
+  &::hover {
+    color: gray;
+  }
+}
+
+
+
+
+
+
+
+

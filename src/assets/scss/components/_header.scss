@@ -1,0 +1,172 @@
+
+.masthead-wrapper {
+	margin-top: rem-calc(20);
+	margin-bottom: rem-calc(20);
+	background-color: $white;
+}
+
+.masthead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--logo {
+		z-index: 10;
+		display: flex;
+    flex-direction: column;
+		align-items: center;
+		transition: opacity 0.35s ease-in-out;
+
+		@include breakpoint(medium down) {
+			flex-direction: row;
+			transition: all 0.35s ease-in-out;
+		}
+	}
+	
+	&--title {
+		text-transform: uppercase;
+		font-size: 22px;
+		display: inherit;
+		span {
+			font-size: 18px;
+		}
+	}
+}
+
+.ha-logo {
+  fill: $black;
+  max-width: rem-calc(300);
+	width: 100%;
+	transition: all 0.35s ease-in-out;
+
+	&--small {
+		max-width: rem-calc(150);
+		margin-right: rem-calc(20);
+
+		@include breakpoint(small only) {
+			max-width: rem-calc(85);
+			margin-right: rem-calc(10);
+		}
+	}
+
+}
+
+// STYLE MENUS ( Primary )============================================
+.menu-primary-wrap
+{
+	padding: rem-calc(5);
+	// background: $bg-primary-nav;
+	font-size: rem-calc(18);
+  // height: $ht-primary-nav;
+  width: 100%;
+  position: absolute;
+  top: rem-calc(62);
+	left: 0;
+	transition: all 0.35s ease-in-out;
+}
+
+
+.menu-primary {
+    width: 49%;
+		display: inline-block;
+		
+		&__right .menu {
+			margin-left: rem-calc(102);
+		}
+
+		&__left .menu {
+			margin-right: rem-calc(15);
+		}
+
+	.menu > li > a
+	{
+		text-decoration: none;
+		text-align: center;
+		border-radius: 0;
+		margin-left: rem-calc(5);
+		text-transform: uppercase;
+    // background: $bg-primary-nav-off;
+		// color: $fg-primary-nav-off;
+    font-size: rem-calc(18);
+    font-weight: 600;
+		transition: background-color 0.25s ease-out, color 0.25s ease-out;
+		&:hover
+		{
+			// background: $bg-primary-nav-hover;
+			// color: $fg-primary-nav-hover;
+		}
+	}
+
+	// .menu .active > a,
+	// .menu .active > a:hover
+	// {
+	// 	// background: $bg-primary-nav-active;
+	// 	// color: $fg-primary-nav-active;
+	// }
+}
+
+// .menu-centered > .menu li,
+// .menu-icon
+// {
+//     z-index: 1002;
+// }
+
+.off-canvas {
+	.close-button{
+		z-index: 10;
+		top: 0;
+		color: $ha-green;
+	}
+}
+
+.ha-logo--sticky {
+	left: rem-calc(10);
+	opacity: 0;
+	width: 0;
+	height: 0;
+	transition: opacity 2s ease-in-out;
+
+	@include breakpoint(medium down) {
+		display: none;
+	}
+}
+
+.fix-menu {
+	position: sticky;
+	top: -50px;
+	z-index: 10;
+	border-bottom: 2px solid $ha-green;
+
+	@include breakpoint(medium down) {
+		position: inherit;
+	}
+
+	.ha-logo--large {
+		opacity: 0;
+		height: 50px;
+	}
+
+	.ha-logo--sticky {
+		display: inline-block !important;
+		position: absolute;
+		width: 50px;
+		height: 21.5px;
+		opacity: 1;
+		transition: all 2s ease-in-out;
+		animation-name: sticky-logo;
+		animation-delay: 2s;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+
+		@include breakpoint(medium down) {
+			display: none !important;
+		}
+	}
+}
+
+@keyframes sticky-logo {
+	0% { transform: rotateY(0deg); }
+	100% { transform: rotateY(360deg); }
+}
+
+

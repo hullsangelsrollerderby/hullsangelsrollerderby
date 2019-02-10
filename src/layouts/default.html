@@ -6,14 +6,65 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Hulls Angels Roller Derby | Hull | East Yorkshire</title>
+    <meta name="description" content="Hulls Angels Roller Derby is a Flat Track Roller Derby League based in Hull, East Yorkshire. We were originally formed in September 2010 after taking inspiration from the resurgence of the sport in the United States. Hulls Angels Roller Derby became affliated with WFTDA in 2013." />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{root}}assets/img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{root}}assets/img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{root}}assets/img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{root}}assets/img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{root}}assets/img/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{root}}assets/img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{root}}assets/img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{root}}assets/img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="Hulls Angels"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="{{root}}assets/img/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="{{root}}assets/img/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="{{root}}assets/img/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="{{root}}assets/img/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="{{root}}assets/img/mstile-310x310.png" />  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <meta name="google-site-verification" content="EbTxLPqc4_uJSvA61zaAZ7htF7E4v6Gcb33fz0GxrUc" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133650136-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-133650136-1');
+    </script>
   </head>
 <body>
-
-{{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-{{> body}}
-
-<script src="{{root}}assets/js/app.js"></script>
+  <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+       <span aria-hidden="true">&times;</span>
+    </button>
+    <ul class="vertical menu" data-drilldown data-parent-link="true" data-animate-height="false">
+          <li><a href="/events">Events</a></li>
+          <li><a href="/get-involved">Get Involved</a></li>
+          <li><a href="/the-hard-teams">The Hard Teams</a></li>
+          <li><a href="/contact-us">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="off-canvas-content" data-off-canvas-content>
+    {{> header}}
+    {{#unlesspage 'get-involved'}}
+      {{> banner}}
+    {{/unlesspage}}
+    {{> body}}
+    {{> footer}}
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="{{root}}assets/js/app.js"></script>
 </body>
 </html>
