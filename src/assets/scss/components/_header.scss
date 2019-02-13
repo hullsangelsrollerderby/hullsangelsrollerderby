@@ -25,18 +25,18 @@
 	
 	&--title {
 		text-transform: uppercase;
-		font-size: 22px;
+		font-size: rem-calc(22);
 		display: inherit;
 		span {
-			font-size: 18px;
+			font-size: rem-calc(18);
 		}
 	}
 }
 
 .ha-logo {
   fill: $black;
-  max-width: rem-calc(300);
-	width: 300px;
+	max-width: rem-calc(300);
+	width: 100%;
 	transition: all 0.25s ease-in-out;
 
 	&--small {
@@ -74,6 +74,10 @@
   top: rem-calc(62);
 	left: 0;
 	transition: all 0.35s ease-in-out;
+
+	@include breakpoint(medium down) {
+		top: rem-calc(58);
+	}
 }
 
 
@@ -81,13 +85,19 @@
     width: 49%;
 		display: inline-block;
 		
-		&__right .menu {
-			margin-left: rem-calc(102);
+		&__right {
+			// padding-left: rem-calc(10);
+			.menu {
+				margin-left: rem-calc(102);
+			}
 		}
 
-		&__left .menu {
-			margin-right: rem-calc(15);
-		}
+		&__left {
+			// padding-right: rem-calc(10);
+			.menu {
+				margin-right: rem-calc(15);
+			}
+		} 
 
 	.menu > li > a
 	{
@@ -127,7 +137,7 @@
 
 .fix-menu {
 	position: sticky;
-	top: -50px;
+	top: -85px;
 	z-index: 10;
 	border-bottom: 2px solid $ha-green;
 	// transition: all 0.15s ease-in-out;
@@ -136,17 +146,22 @@
 		position: inherit;
 	}
 
+	.menu-primary-wrap {
+		top: rem-calc(95);
+	}
+
 	.ha-logo--large {
 		opacity: 0;
-		width: 175.5px;
+		// width: 175.5px;
 		transition: all 0.15s ease-in-out;
 	}
 
 	.ha-logo--sticky {
 		display: inline-block !important;
 		position: absolute;
-		width: 50px;
-		height: 21.5px;
+		top: rem-calc(105);
+		width: rem-calc(50p);
+		height: rem-calc(21.5);
 		opacity: 1;
 		transition: all 2s ease-in-out;
 		animation-name: sticky-logo;
