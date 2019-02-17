@@ -8,20 +8,18 @@
       </div>
 
       <ul class="orbit-container"> 
-        <li class="orbit-slide">
-          <figure class="orbit-figure">
-              <a href="#">
-                <img class="orbit-image" src="{{root}}assets/img/banners/hard-humber-bridge-group.jpg">
-              </a>
-          </figure>
-        </li>
-        <li class="orbit-slide">
-          <figure class="orbit-figure">
-              <a href="#">
-                <img class="orbit-image" src="{{root}}assets/img/banners/image4.jpg">
-              </a>
-          </figure>
-        </li>
+        {{#each banner.index}}
+          {{#ifpage page}}
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                  <a href="#">
+                    <img class="orbit-image" src="{{root}}{{img}}">
+                  </a>
+              </figure>
+            </li>
+          {{/ifpage}}
+        {{/each}}
+
       </ul>
 
      <!-- <div class="banner__caption orbit-caption">

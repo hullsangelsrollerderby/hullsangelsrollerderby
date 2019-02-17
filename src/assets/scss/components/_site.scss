@@ -1,4 +1,15 @@
+h1, h2 {
+  text-transform: uppercase;
+  color: $ha-green;
+  display: inline-flex;
+  align-items: center;
 
+  .span-middle {
+    font-size: rem-calc(28);
+    line-height: rem-calc(20);
+    margin-left: rem-calc(10);
+  }
+}
 
 // old
 

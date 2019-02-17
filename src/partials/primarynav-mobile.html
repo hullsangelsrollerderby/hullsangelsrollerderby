@@ -1,0 +1,11 @@
+<div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+       <span aria-hidden="true">&times;</span>
+    </button>
+    <ul class="vertical menu" data-drilldown data-parent-link="true" data-animate-height="false">
+          <li {{#ifpage 'events'}} class="active"{{/ifpage}}><a href="/events">Events</a></li>
+          <li {{#ifpage 'get-involved'}} class="active"{{/ifpage}}><a href="/get-involved">Get Involved</a></li>
+          <li {{#ifpage 'the-hard-teams'}} class="active"{{/ifpage}}><a href="/the-hard-teams">The Hard Teams</a></li>
+          <li {{#ifpage 'contact-us'}} class="active"{{/ifpage}}><a href="/contact-us">Contact Us</a></li>
+    </ul>
+  </div>
