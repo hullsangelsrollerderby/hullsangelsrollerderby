@@ -1,0 +1,42 @@
+.event {
+  margin: rem-calc(20);
+  padding: rem-calc(20);
+  border-top: 1px solid $black;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  &--title {
+    font-size: rem-calc(24);
+    letter-spacing: 0;
+    color: $black;
+  }
+
+  &--image {
+    display: flex;
+    justify-content: center;
+  }
+
+  &--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &--date {
+    display: inherit;
+    margin-bottom: rem-calc(16);
+  }
+
+  &--teams {
+    display: inline-block;
+    font-size: rem-calc(30);
+    text-align: center;
+    font-weight: 600;
+
+    span {
+      display: inherit;
+    }
+  }  
+}

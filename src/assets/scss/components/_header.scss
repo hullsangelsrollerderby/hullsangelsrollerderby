@@ -1,8 +1,9 @@
 
 .masthead-wrapper {
 	margin-top: rem-calc(20);
-	margin-bottom: rem-calc(20);
+	// margin-bottom: rem-calc(20);
 	background-color: $white;
+	border-bottom: 2px solid $ha-green;
 }
 
 .masthead {
