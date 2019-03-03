@@ -1,9 +1,12 @@
 
 .masthead-wrapper {
 	margin-top: rem-calc(20);
-	// margin-bottom: rem-calc(20);
 	background-color: $white;
 	border-bottom: 2px solid $ha-green;
+
+	@include breakpoint(medium down) {
+		padding-bottom: rem-calc(10);
+	}
 }
 
 .masthead {
@@ -61,6 +64,10 @@
 		}
 	}
 
+	&--mobile {
+		width: rem-calc(125);
+	}
+
 }
 
 // STYLE MENUS ( Primary )============================================
@@ -77,7 +84,7 @@
 	transition: all 0.35s ease-in-out;
 
 	@include breakpoint(medium down) {
-		top: rem-calc(58);
+		top: rem-calc(33);
 	}
 }
 
@@ -150,11 +157,14 @@
 	// transition: all 0.15s ease-in-out;
 
 	@include breakpoint(medium down) {
-		position: inherit;
+		// position: inherit;
+		top: rem-calc(-40);
 	}
 
-	.menu-primary-wrap {
-		top: rem-calc(95);
+	@include breakpoint(large) {
+		.menu-primary-wrap {
+			top: rem-calc(95);
+		}
 	}
 
 	.ha-logo--large {

@@ -1,0 +1,59 @@
+members:
+  -
+    img1: assets/img/teams/bees/bees.gif
+    name: 'Bees'
+  -
+    img1: assets/img/teams/bees/ali-the-alien-169.jpg
+    img2: assets/img/teams/bees/ali-the-alien-169-fun.jpg
+    number: 169
+    name: 'Ali the Alien'
+  -
+    img1: assets/img/teams/bees/doughty-210.jpg
+    img2: assets/img/teams/bees/doughty-210-fun.jpg
+    number: 210
+    name: 'Doughty'
+  -
+    img1: assets/img/teams/bees/dread-metal-64.jpg
+    img2: assets/img/teams/bees/dread-metal-64-fun.jpg
+    number: 64
+    name: 'Dread Metal'
+  -
+    img1: assets/img/teams/bees/intensive-ceri-3.jpg
+    img2: assets/img/teams/bees/intensive-ceri-3-fun.jpg
+    number: 3
+    name: 'Intensive Ceri'
+  -
+    img1: assets/img/teams/bees/jo.jpg
+    img2: assets/img/teams/bees/jo-fun.jpg
+    number: 
+    name: 'Jo'
+  -
+    img1: assets/img/teams/bees/ko-98.jpg
+    img2: assets/img/teams/bees/ko-98-fun.jpg
+    number: 98
+    name: 'KO'
+  -
+    img1: assets/img/teams/bees/l-macfearsom-5.jpg
+    img2: assets/img/teams/bees/l-macfearsom-5-fun.jpg
+    number: 5
+    name: 'L Macfearsom'
+  -
+    img1: assets/img/teams/bees/lyn-D-structable-247.jpg
+    img2: assets/img/teams/bees/lyn-D-structable-247-fun.jpg
+    number: 247
+    name: 'Lyn D Structable'
+  -
+    img1: assets/img/teams/bees/peggy-pain-666.jpg
+    img2: assets/img/teams/bees/peggy-pain-666-fun.jpg
+    number: 666
+    name: 'Peggy Pain'
+  -
+    img1: assets/img/teams/bees/steve-l-kinevel-27.jpg
+    img2: assets/img/teams/bees/steve-l-kinevel-27-fun.jpg
+    number: 27
+    name: 'Steve L Kinevel'
+  -
+    img1: assets/img/teams/bees/thundercat-31.jpg
+    img2: assets/img/teams/bees/thundercat-31-fun.jpg
+    number: 31
+    name: 'Thundercat'

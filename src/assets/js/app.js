@@ -31,3 +31,19 @@ $(function(){
     }
   });
 });
+
+$(function(){
+  $(".teams--image").hover(
+    function(){      
+      swapimage($(this), '.jpg', '-fun.jpg');
+    }, 
+    function() {
+      swapimage($(this), '-fun.jpg', '.jpg');
+    });    
+});
+
+function swapimage(item, from, to) {
+  if ($(item).data("swap") == true) {
+    $(item).attr('src',$(item).attr('src').replace(from, to));
+  }
+}

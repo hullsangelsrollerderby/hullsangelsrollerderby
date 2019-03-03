@@ -11,23 +11,17 @@ activepage: teams
     </div>
   </div>
 
-  <div class="grid-x grid-padding-x">
-    <div class="large-12 cell copy-wrapper">
-      <h2>All Stars <span class="span-middle">(A-Team)</span></h2>
-    </div>
+  <div class="grid-x grid-margin-x grid-margin-y small-up-2 medium-up-3 large-up-5 teams">
+    {{#each allstars.members}}
+      {{> member }}
+    {{/each}}
+    {{#each bees.members}}
+      {{> member }}
+    {{/each}} 
+    {{#each officials.members}}
+      {{> member }}
+    {{/each}}
   </div>
-
-  <div class="grid-x grid-padding-x">
-    <div class="large-12 cell copy-wrapper">
-      <h2>Bees <span class="span-middle">(B-Team)</span></h2>
-    </div>
-  </div>
-
-  <div class="grid-x grid-padding-x">
-      <div class="large-12 cell copy-wrapper">
-        <h2>Academy <span class="span-middle">(Beginners)</span></h2>
-      </div>
-    </div>
 </div>  
 
 

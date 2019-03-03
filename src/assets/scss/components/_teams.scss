@@ -1,0 +1,35 @@
+.teams {
+  &--member {
+    position: relative;
+
+    &__logo {
+      background-color: $ha-green;
+    }
+  }
+  &--name {
+    position: absolute;
+    bottom: 0;
+    color: $white;
+    padding: rem-calc(10);
+    margin-bottom: 0;
+    font-weight: 600;
+
+    @include breakpoint(medium only) {
+      font-size: rem-calc(15);
+    }
+
+    @include breakpoint(small only) {
+      font-size: rem-calc(13);
+    }
+
+    &__team {
+      width: 100%;
+      bottom: 38%;
+      font-size: rem-calc(36);
+
+      @include breakpoint(small only) {
+        font-size: rem-calc(28);
+      }
+    }
+  }
+}
