@@ -71,7 +71,7 @@
 
 	&--mobile {
         width: rem-calc(125);
-        margin-top: rem-calc(35);
+        // margin-top: rem-calc(35);
 	}
 
 }
@@ -200,7 +200,13 @@
 		@include breakpoint(medium down) {
 			display: none !important;
 		}
-	}
+    }
+    
+    .masthead--logo__mobile {
+        @include breakpoint(medium down) {
+            margin-top: rem-calc(40);
+        }
+    }
 }
 
 @keyframes sticky-logo {
