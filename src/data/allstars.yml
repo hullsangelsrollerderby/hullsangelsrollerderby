@@ -3,15 +3,15 @@ members:
     img1: assets/img/teams/all-stars/all-stars.gif
     name: 'All Stars'
   -
-    img1: assets/img/teams/all-stars/dani-6.jpg
-    img2: assets/img/teams/all-stars/dani-6-fun.jpg
-    number: 6
-    name: 'Dani'
+    img1: assets/img/teams/all-stars/wilken-85.jpg
+    img2: assets/img/teams/all-stars/wilken-85-fun.jpg
+    number: 85
+    name: 'Wilken'
   -
-    img1: assets/img/teams/all-stars/f-bomb-19.jpg
-    img2: assets/img/teams/all-stars/f-bomb-19-fun.jpg
-    number: 19
-    name: 'F-Bomb'
+    img1: assets/img/teams/all-stars/milv-20.jpg
+    img2: assets/img/teams/all-stars/milv-20-fun.jpg
+    number: 20
+    name: 'Milv'
   -
     img1: assets/img/teams/all-stars/frost-spite-13.jpg
     img2: assets/img/teams/all-stars/frost-spite-13-fun.jpg
@@ -28,11 +28,6 @@ members:
     number: 30
     name: 'Melon Collie'
   -
-    img1: assets/img/teams/all-stars/milv-20.jpg
-    img2: assets/img/teams/all-stars/milv-20-fun.jpg
-    number: 20
-    name: 'Milv'
-  -
     img1: assets/img/teams/all-stars/newton-bomb-21.jpg
     img2: assets/img/teams/all-stars/newton-bomb-21-fun.jpg
     number: 21
@@ -48,7 +43,12 @@ members:
     number: 10
     name: 'Thrill Murray'
   -
-    img1: assets/img/teams/all-stars/wilken-85.jpg
-    img2: assets/img/teams/all-stars/wilken-85-fun.jpg
-    number: 85
-    name: 'Wilken'
+    img1: assets/img/teams/all-stars/dani-6.jpg
+    img2: assets/img/teams/all-stars/dani-6-fun.jpg
+    number: 6
+    name: 'Dani'
+  -
+    img1: assets/img/teams/all-stars/f-bomb-19.jpg
+    img2: assets/img/teams/all-stars/f-bomb-19-fun.jpg
+    number: 19
+    name: 'F-Bomb'

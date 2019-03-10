@@ -3,9 +3,15 @@
 	margin-top: rem-calc(20);
 	background-color: $white;
 	border-bottom: 2px solid $ha-green;
+	z-index: 10;
 
 	@include breakpoint(medium down) {
 		padding-bottom: rem-calc(10);
+		position: sticky;
+		top: rem-calc(-40);
+		margin-top: 0;
+
+
 	}
 }
 
@@ -17,9 +23,9 @@
   &--logo {
 		z-index: 10;
 		display: flex;
-        flex-direction: column;
+    flex-direction: column;
 		align-items: center;
-        transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
         
         &__mobile {
             z-index: 2;
@@ -36,6 +42,12 @@
 		text-transform: uppercase;
 		font-size: rem-calc(22);
 		display: inherit;
+
+		@include breakpoint(medium down) {
+			margin-top: rem-calc(5);
+			margin-bottom: 0;
+		}
+
 		span {
 			font-size: rem-calc(18);
 		}
@@ -59,14 +71,14 @@
 	}
 
 	&--sticky {
-		left: rem-calc(10);
+		right: rem-calc(10);
 		opacity: 0;
 		width: 0;
 		height: 0;
 	
-		@include breakpoint(medium down) {
-			display: none;
-		}
+		// @include breakpoint(medium down) {
+		// 	display: none;
+		// }
 	}
 
 	&--mobile {
@@ -82,16 +94,17 @@
 	padding: rem-calc(5);
 	// background: $bg-primary-nav;
 	font-size: rem-calc(18);
-    // height: $ht-primary-nav;
-    width: 100%;
-    position: absolute;
-    top: rem-calc(62);
-    left: 0;
-    background-color: $white;
+	// height: $ht-primary-nav;
+	width: 100%;
+	position: absolute;
+	top: rem-calc(62);
+	left: 0;
+	background-color: $white;
 	transition: all 0.35s ease-in-out;
 
 	@include breakpoint(medium down) {
-		top: rem-calc(33);
+		top: rem-calc(10);
+		// margin-top: rem-calc(35);
 	}
 }
 
@@ -164,12 +177,7 @@
 	// transition: all 0.15s ease-in-out;
 
 	@include breakpoint(medium down) {
-		// position: inherit;
-        top: rem-calc(-40);
-        
-        // .masthead--logo {
-        //     display: none;
-        // }
+    top: rem-calc(0);
 	}
 
 	@include breakpoint(large) {
@@ -188,7 +196,7 @@
 		display: inline-block !important;
 		position: absolute;
 		top: rem-calc(105);
-		width: rem-calc(50p);
+		width: rem-calc(50);
 		height: rem-calc(21.5);
 		opacity: 1;
 		transition: all 2s ease-in-out;
@@ -198,15 +206,15 @@
 		animation-iteration-count: infinite;
 
 		@include breakpoint(medium down) {
-			display: none !important;
+			top: rem-calc(25);
 		}
-    }
+  }
     
-    .masthead--logo__mobile {
-        @include breakpoint(medium down) {
-            margin-top: rem-calc(40);
-        }
-    }
+    // .masthead--logo__mobile {
+    //     @include breakpoint(medium down) {
+    //         margin-top: rem-calc(40);
+    //     }
+    // }
 }
 
 @keyframes sticky-logo {

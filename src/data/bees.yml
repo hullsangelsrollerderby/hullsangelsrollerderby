@@ -3,6 +3,16 @@ members:
     img1: assets/img/teams/bees/bees.gif
     name: 'Bees'
   -
+    img1: assets/img/teams/bees/lyn-D-structable-247.jpg
+    img2: assets/img/teams/bees/lyn-D-structable-247-fun.jpg
+    number: 247
+    name: 'Lyn D Structable'
+  -
+    img1: assets/img/teams/bees/ko-98.jpg
+    img2: assets/img/teams/bees/ko-98-fun.jpg
+    number: 98
+    name: 'KO'
+  -
     img1: assets/img/teams/bees/ali-the-alien-169.jpg
     img2: assets/img/teams/bees/ali-the-alien-169-fun.jpg
     number: 169
@@ -25,23 +35,13 @@ members:
   -
     img1: assets/img/teams/bees/jo.jpg
     img2: assets/img/teams/bees/jo-fun.jpg
-    number: 
+    number: 66
     name: 'Jo'
-  -
-    img1: assets/img/teams/bees/ko-98.jpg
-    img2: assets/img/teams/bees/ko-98-fun.jpg
-    number: 98
-    name: 'KO'
   -
     img1: assets/img/teams/bees/l-macfearsom-5.jpg
     img2: assets/img/teams/bees/l-macfearsom-5-fun.jpg
     number: 5
     name: 'L Macfearsom'
-  -
-    img1: assets/img/teams/bees/lyn-D-structable-247.jpg
-    img2: assets/img/teams/bees/lyn-D-structable-247-fun.jpg
-    number: 247
-    name: 'Lyn D Structable'
   -
     img1: assets/img/teams/bees/peggy-pain-666.jpg
     img2: assets/img/teams/bees/peggy-pain-666-fun.jpg

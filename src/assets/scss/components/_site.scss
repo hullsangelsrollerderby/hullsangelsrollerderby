@@ -32,21 +32,14 @@ h1, h2 {
   flex-direction: column;
 }
 
+.para {
+  &--emph {
+    font-size: rem-calc(18);
+    font-weight: 600;
+  }
+  
+}
 
-// .event {
-//   flex-direction: column;
-//   h2 {
-//     text-align: center;
-//     font-size: rem-calc(34);
-//   }
-// }
-
-// .fab {
-//   color: white;
-//   &::hover {
-//     color: gray;
-//   }
-// }
 
 
 
