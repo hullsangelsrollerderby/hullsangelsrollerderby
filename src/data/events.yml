@@ -1,5 +1,6 @@
 events:
   -
+    id: 'bout-1'
     boutDate: '2019-03-23'
     title: 'British Championships WFTDA Tier 2 North'
     home: 'Hulls Angels Roller Derby'
@@ -9,6 +10,7 @@ events:
     venue: 'Granite City Northern Fights'
     copy:
   -
+    id: 'bout-2'
     boutDate: '2019-06-01'
     title: 'British Championships WFTDA Tier 2 North'
     home: 'Granite City Northern Fights'
@@ -18,6 +20,7 @@ events:
     venue: 'Arcadia Roller Derby'
     copy:
   -
+    id: 'bout-3'
     boutDate: '2019-07-06'
     title: 'British Championships WFTDA Tier 2 North'
     home: 'Hallam Hellcats Roller Derby'

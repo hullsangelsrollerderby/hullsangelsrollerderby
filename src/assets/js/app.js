@@ -39,11 +39,35 @@ $(function(){
     }, 
     function() {
       swapimage($(this), '-fun.jpg', '.jpg');
-    });    
+    }
+  );    
+
+  $('.js-event').each(function( index ) {
+    var checkd = checkdate($(this).data('date'));
+    if (checkd) {
+      $(this).addClass('hide');
+    }
+  });
+
+
 });
 
 function swapimage(item, from, to) {
   if ($(item).data("swap") == true) {
     $(item).attr('src',$(item).attr('src').replace(from, to));
+  }
+}
+
+function checkdate(date) {
+  var expireDateStr = date;
+  var expireDateArr = expireDateStr.split("-");
+  var expireDate = new Date(expireDateArr[0], expireDateArr[1]-1, expireDateArr[2]);
+  var todayDate = new Date();
+  expireDate.setHours(23);
+
+  if (todayDate > expireDate) {
+    return true;
+  } else {
+    return false;
   }
 }
