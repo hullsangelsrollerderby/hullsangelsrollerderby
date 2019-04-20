@@ -1,13 +1,24 @@
 events:
   -
     id: 'bout-1'
-    boutDate: '2019-03-23'
-    title: 'British Championships WFTDA Tier 2 North'
-    home: 'Hulls Angels Roller Derby'
+    boutDate: '2019-05-04'
+    boutDate2: '2019-05-05'
+    title: 'TNT - The Northern Takedown 2019'
+    home: 'Hulls Angels All Stars'
     home_logo: assets/img/logos/HARD-128x128.jpg
-    away: 'Wirral Savage Lilies'
-    away_logo: assets/img/logos/WIRR-128x128.jpg
-    venue: 'Granite City Northern Fights'
+    away: 'Aalborg Roller Derby'
+    away_logo:  assets/img/logos/aalborg-roller-derby.jpg
+    venue: 'Aalborg Roller Derby'
+    copy: 'HARD are proud to be taking part in The Northern Takedown 2019 hosted by Aalborg Roller Derby in Denmark.'
+  -
+    id: 'b-team-1'
+    boutDate: '2019-05-18'
+    title: ''
+    home: 'Hulls Angels BEES'
+    home_logo: assets/img/logos/HARD-128x128.jpg
+    away: 'Mansfield B'
+    away_logo: assets/img/logos/MAMI-128x91.png
+    venue: 'Hulls Angels Roller Derby'
     copy:
   -
     id: 'bout-2'
@@ -15,7 +26,7 @@ events:
     title: 'British Championships WFTDA Tier 2 North'
     home: 'Granite City Northern Fights'
     home_logo: assets/img/logos/GCRDtransparentbg-128x128.png
-    away: 'Hulls Angels Roller Derby'
+    away: 'Hulls Angels All Stars'
     away_logo: assets/img/logos/HARD-128x128.jpg
     venue: 'Arcadia Roller Derby'
     copy:
@@ -25,7 +36,7 @@ events:
     title: 'British Championships WFTDA Tier 2 North'
     home: 'Hallam Hellcats Roller Derby'
     home_logo: assets/img/logos/HALL-128x128.jpg
-    away: 'Hulls Angels Roller Derby'
+    away: 'Hulls Angels All Stars'
     away_logo: assets/img/logos/HARD-128x128.jpg
     venue: 'Wirral Savage Lilies'
     copy:

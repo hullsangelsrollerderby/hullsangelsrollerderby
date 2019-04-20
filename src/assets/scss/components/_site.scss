@@ -11,6 +11,10 @@ h1, h2 {
   }
 }
 
+.space-bottom {
+  margin-bottom: rem-calc(20) !important;
+}
+
 // old
 
 .logo-wrapper, .league-name, .copy-wrapper, .event, .social-wrapper {
@@ -28,7 +32,7 @@ h1, h2 {
 }
 
 .copy-wrapper {
-  margin-bottom: rem-calc(40);
+  margin-bottom: rem-calc(10);
   flex-direction: column;
 }
 

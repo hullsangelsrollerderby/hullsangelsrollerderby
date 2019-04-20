@@ -1,8 +1,14 @@
 ---
 title: Upcoming Events | Hulls Angels Roller Derby | Hull | East Yorkshire | HARD
-description: Upcoming Events HARD events.
+description: Upcoming HARD events.
 ---
 <div class="grid-container">
+  <div class="grid-x grid-padding-x">
+      <div class="large-12 cell copy-wrapper">
+        <h1>HARD Events</h1>  
+      </div>
+    </div>
+
   {{#each events.events}}
       <section class="grid-x grid-padding-x event js-event" id="{{id}}" data-date="{{boutDate}}" itemscope itemtype="http://schema.org/SportsEvent">
         <div class="medium-3 cell event--image" itemprop="competitor" itemscope="" itemtype="http://schema.org/SportsTeam">
@@ -11,12 +17,23 @@ description: Upcoming Events HARD events.
         </div>
         <div class="medium-6 cell event--info">
             <h1 class="event--title">{{title}}</h1>
-            <time class="event--date" datetime="{{boutDate}}" itemprop="startDate" content="{{boutDate}}">{{#formatdate}}{{boutDate}}{{/formatdate}}</time>
+            <div class="event--date-wrapper">
+              <time class="event--date" datetime="{{boutDate}}" itemprop="startDate" content="{{boutDate}}">{{#formatdate}}{{boutDate}}{{/formatdate}}</time>
+              {{#if boutDate2}}
+                <p class="event--date__to"> to </p>
+                <time class="event--date" datetime="{{boutDate2}}" itemprop="endDate" content="{{boutDate2}}">{{#formatdate}}{{boutDate2}}{{/formatdate}}</time>
+              {{/if}}
+            </div>
             <h2 class="event--teams">{{home}}</h2>
-            <p class="event--teams__vs">V</p>
-            <h2 class="event--teams">{{away}}</h2>
+            {{#if away}}
+              <p class="event--teams__vs">V</p>
+              <h2 class="event--teams">{{away}}</h2>
+            {{/if}}
             <p>Hosted By</p>
             <h4 class="event--venue">{{venue}}</h4>
+            {{#if copy}}
+              <p>{{copy}}</p> 
+            {{/if}}
         </div>
         <div class="medium-3 cell event--image" itemprop="competitor" itemscope="" itemtype="http://schema.org/SportsTeam">
             <meta itemprop="name" content="{{away}}">
