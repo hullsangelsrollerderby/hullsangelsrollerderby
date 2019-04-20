@@ -11,9 +11,9 @@ description: Upcoming HARD events.
 
   {{#each events.events}}
       <section class="grid-x grid-padding-x event js-event" id="{{id}}" data-date="{{boutDate}}" itemscope itemtype="http://schema.org/SportsEvent">
-        <div class="medium-3 cell event--image" itemprop="competitor" itemscope="" itemtype="http://schema.org/SportsTeam">
+        <div class="medium-3 cell event--image show-for-medium" itemprop="competitor" itemscope="" itemtype="http://schema.org/SportsTeam">
             <meta itemprop="name" content="{{home}}">
-            <img itemprop="logo" alt="{{home}}" src="{{root}}{{home_logo}}">
+            <img class="show-for-medium" itemprop="logo" alt="{{home}}" src="{{root}}{{home_logo}}">
         </div>
         <div class="medium-6 cell event--info">
             <h1 class="event--title">{{title}}</h1>
@@ -25,8 +25,10 @@ description: Upcoming HARD events.
               {{/if}}
             </div>
             <h2 class="event--teams">{{home}}</h2>
+            <img class="show-for-small-only" itemprop="logo" alt="{{home}}" src="{{root}}{{home_logo}}">
             {{#if away}}
               <p class="event--teams__vs">V</p>
+              <img class="show-for-small-only" alt="{{away}}" src="{{root}}{{away_logo}}">
               <h2 class="event--teams">{{away}}</h2>
             {{/if}}
             <p>Hosted By</p>
@@ -35,9 +37,9 @@ description: Upcoming HARD events.
               <p>{{copy}}</p> 
             {{/if}}
         </div>
-        <div class="medium-3 cell event--image" itemprop="competitor" itemscope="" itemtype="http://schema.org/SportsTeam">
+        <div class="medium-3 cell event--image show-for-medium" itemprop="competitor" itemscope="" itemtype="http://schema.org/SportsTeam">
             <meta itemprop="name" content="{{away}}">
-            <img itemprop="logo" alt="{{away}}" src="{{root}}{{away_logo}}">
+            <img class="show-for-medium" itemprop="logo" alt="{{away}}" src="{{root}}{{away_logo}}">
         </div>
       </section>
   {{/each}}
