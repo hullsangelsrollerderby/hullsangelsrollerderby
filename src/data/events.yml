@@ -10,6 +10,7 @@ events:
     away_logo:  assets/img/logos/aalborg-roller-derby.jpg
     venue: 'Aalborg Roller Derby'
     copy: 'HARD are proud to be taking part in The Northern Takedown 2019 hosted by Aalborg Roller Derby in Denmark.'
+    location: 
   -
     id: 'b-team-1'
     boutDate: '2019-05-18'
@@ -20,6 +21,7 @@ events:
     away_logo: assets/img/logos/MAMI-128x91.png
     venue: 'Hulls Angels Roller Derby'
     copy:
+    location: 
   -
     id: 'bout-2'
     boutDate: '2019-06-01'
@@ -30,6 +32,7 @@ events:
     away_logo: assets/img/logos/HARD-128x128.jpg
     venue: 'Arcadia Roller Derby'
     copy:
+    location: 
   -
     id: 'bout-3'
     boutDate: '2019-07-06'
@@ -40,3 +43,4 @@ events:
     away_logo: assets/img/logos/HARD-128x128.jpg
     venue: 'Wirral Savage Lilies'
     copy:
+    location: 

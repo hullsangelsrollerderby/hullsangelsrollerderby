@@ -16,7 +16,7 @@ description: Upcoming HARD events.
             <img class="show-for-medium" itemprop="logo" alt="{{home}}" src="{{root}}{{home_logo}}">
         </div>
         <div class="medium-6 cell event--info">
-            <h1 class="event--title">{{title}}</h1>
+            <h1 class="event--title" itemprop="name" content="{{title}}">{{title}}</h1>
             <div class="event--date-wrapper">
               <time class="event--date" datetime="{{boutDate}}" itemprop="startDate" content="{{boutDate}}">{{#formatdate}}{{boutDate}}{{/formatdate}}</time>
               {{#if boutDate2}}
@@ -32,7 +32,7 @@ description: Upcoming HARD events.
               <h2 class="event--teams">{{away}}</h2>
             {{/if}}
             <p>Hosted By</p>
-            <h4 class="event--venue">{{venue}}</h4>
+            <h4 class="event--venue" itemprop="location" content="{{venue}}">{{venue}}</h4>
             {{#if copy}}
               <p>{{copy}}</p> 
             {{/if}}
