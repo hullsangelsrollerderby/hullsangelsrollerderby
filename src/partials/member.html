@@ -1,6 +1,8 @@
-<div class="cell teams--member {{#compare @index 0 operator="=="}}teams--member__logo{{/compare}}">
-  {{#compare @index 0 operator="!="}}
-  <img class="teams--image" src="{{root}}{{img1}}" alt="{{name}}" {{#if img2}}data-swap="true"{{/if}}>
-  {{/compare}}
-  <p class="teams--name {{#compare @index 0 operator="=="}}teams--name__team{{/compare}}">{{#if number}}{{number}} - {{/if}}{{name}}</p>   
+<div class="cell teams--member">
+  {{#compare @index 0 operator="=="}}<div class="teams--member__logo">{{/compare}}
+    {{#compare @index 0 operator="!="}}
+    <img class="teams--image" src="{{root}}{{img1}}" alt="{{name}}" {{#if img2}}data-swap="true"{{/if}}>
+    {{/compare}}
+    <p class="teams--name {{#compare @index 0 operator="=="}}teams--name__team{{/compare}}">{{#if number}}{{number}} - {{/if}}{{name}}</p>   
+  {{#compare @index 0 operator="=="}}</div>{{/compare}}
 </div>

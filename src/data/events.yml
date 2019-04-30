@@ -10,18 +10,24 @@ events:
     away_logo:  assets/img/logos/aalborg-roller-derby.jpg
     venue: 'Aalborg Roller Derby'
     copy: 'HARD are proud to be taking part in The Northern Takedown 2019 hosted by Aalborg Roller Derby in Denmark.'
-    location: 
+    location: Nørresundby Idrætscenter
+    streetAddress: Lerumbakken 11
+    postalCode: 9400 Nørresundby
   -
     id: 'b-team-1'
     boutDate: '2019-05-18'
-    title: ''
+    title: 'B Team Bout'
     home: 'Hulls Angels BEES'
     home_logo: assets/img/logos/HARD-128x128.jpg
     away: 'Mansfield B'
     away_logo: assets/img/logos/MAMI-128x91.png
     venue: 'Hulls Angels Roller Derby'
     copy:
-    location: 
+    location: Sirus Academy West
+    streetAddress: Pickering Rd
+    addressLocality: Hull
+    addressRegion: East Riding of Yorkshire
+    postalCode: HU4 6TA
   -
     id: 'bout-2'
     boutDate: '2019-06-01'
@@ -32,7 +38,11 @@ events:
     away_logo: assets/img/logos/HARD-128x128.jpg
     venue: 'Arcadia Roller Derby'
     copy:
-    location: 
+    location: Ardwick Sports Hall
+    streetAddress: 225 Stockport Rd
+    addressLocality: Ardwick
+    addressRegion: Manchester
+    postalCode: M12 4DY
   -
     id: 'bout-3'
     boutDate: '2019-07-06'
@@ -43,4 +53,7 @@ events:
     away_logo: assets/img/logos/HARD-128x128.jpg
     venue: 'Wirral Savage Lilies'
     copy:
-    location: 
+    location: ARDwick Sports Hall
+    streetAddress: 225 Stockport Road
+    addressLocality: Manchester
+    postalCode: HU4 6TA 
