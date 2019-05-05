@@ -48,6 +48,14 @@
   {{> primarynav-mobile}}
   <div class="off-canvas-content" data-off-canvas-content>
     {{> header}}
+
+
+    {{#unlesspage 'tnt-the-northern-takedown'}}
+    <div class="news-alert">
+        <a href="/tnt-the-northern-takedown.html" title="View results - TNT - The Northern Takedown"><h1>TNT - The Northern Takedown<span>Overall Winners</span></h1></a>
+    </div>
+    {{/unlesspage}}
+
     {{#unlesspage 'get-involved'}}
       {{> banner}}
     {{/unlesspage}}

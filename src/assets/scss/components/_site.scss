@@ -19,6 +19,21 @@ h2 {
   margin-bottom: rem-calc(20) !important;
 }
 
+.news-alert {
+  margin-top: rem-calc(10);
+  a {
+    display: inherit;
+  }
+
+  h1 {
+    display: inherit;
+    font-size: rem-calc(20);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $ha-green;
+  }
+}
+
 // old
 
 .logo-wrapper, .league-name, .copy-wrapper, .event, .social-wrapper {

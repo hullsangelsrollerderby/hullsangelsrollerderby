@@ -1,0 +1,9 @@
+.article {
+  &--title {
+    font-size: rem-calc(34);
+
+    @include breakpoint(small only) {
+      font-size: rem-calc(22);
+    }
+  }
+}
