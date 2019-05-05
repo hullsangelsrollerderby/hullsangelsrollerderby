@@ -21,6 +21,13 @@
   &--image {
     display: flex;
     justify-content: center;
+
+    // @include breakpoint(small only) {
+    //   justify-content: flex-start;
+    //   &__away {
+    //     justify-content: flex-end;
+    //   }
+    // }
   }
 
   &--info {
@@ -38,6 +45,7 @@
 
   &--score {
     font-size: rem-calc(38);
+    width: rem-calc(75);
   }
 
   &--date-wrapper {
