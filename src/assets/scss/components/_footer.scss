@@ -28,5 +28,13 @@
 }
 
 .footer .fab {
-  color: #fff;
+  color: #5dae83;
+  width: rem-calc(48);
+  height: rem-calc(48);
+  overflow: hidden;
+
+  &:before {
+    color: #fff;
+    // font-size: 3em !important;
+  }
 }
