@@ -61,7 +61,7 @@ function swapimage(item, from, to) {
 function checkdate(date) {
   var expireDateStr = date;
   var expireDateArr = expireDateStr.split("-");
-  var expireDate = new Date(expireDateArr[0], expireDateArr[1]-1, expireDateArr[2]);
+  var expireDate = new Date(expireDateArr[0], expireDateArr[1]-1, expireDateArr[2]+1);
   var todayDate = new Date();
   expireDate.setHours(23);
 
