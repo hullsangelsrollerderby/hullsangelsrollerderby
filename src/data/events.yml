@@ -38,11 +38,11 @@ events:
     away_logo: assets/img/logos/HARD-128x128.jpg
     venue: 'Arcadia Roller Derby'
     copy:
-    location: Ardwick Sports Hall
-    streetAddress: 225 Stockport Rd
-    addressLocality: Ardwick
-    addressRegion: Manchester
-    postalCode: M12 4DY
+    location: University of Salford Sports Centre
+    streetAddress: University Road
+    addressLocality: Salford
+    addressRegion: City of Salford
+    postalCode: M5 4WT
   -
     id: 'bout-3'
     boutDate: '2019-07-06'

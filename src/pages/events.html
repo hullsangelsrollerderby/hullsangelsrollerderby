@@ -10,7 +10,7 @@ description: Upcoming HARD events.
     </div>
 
   {{#each events.events}}
-      <div class="grid-x grid-padding-x event js-event" id="{{id}}" data-date="{{boutDate}}" itemscope itemtype="http://schema.org/SportsEvent">
+      <div class="grid-x grid-padding-x event js-event" id="{{id}}" data-date="{{#if boutDate2}}{{boutDate2}}{{else}}{{boutDate}}{{/if}}" itemscope itemtype="http://schema.org/SportsEvent">
         
         <div class="hide" itemprop="location" itemscope itemtype="http://schema.org/Place">
           <meta itemprop="name" content="{{location}}">
