@@ -91,7 +91,7 @@ function sass() {
     // PRODUCTION && uncss.postcssPlugin(UNCSS_OPTIONS),
   ].filter(Boolean);
 
-  return gulp.src('src/assets/scss/app.scss')
+  return gulp.src('src/assets/scss/app-1.scss')
     .pipe($.sourcemaps.init())
     .pipe($.sass({
       includePaths: PATHS.sass
