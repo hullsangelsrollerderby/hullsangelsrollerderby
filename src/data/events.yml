@@ -1,34 +1,5 @@
 events:
   -
-    id: 'bout-1'
-    boutDate: '2019-05-04'
-    boutDate2: '2019-05-05'
-    title: 'TNT - The Northern Takedown 2019'
-    home: 'Hulls Angels All Stars'
-    home_logo: assets/img/logos/HARD-128x128.jpg
-    away: 'Aalborg Roller Derby'
-    away_logo:  assets/img/logos/aalborg-roller-derby.jpg
-    venue: 'Aalborg Roller Derby'
-    copy: 'HARD are proud to be taking part in The Northern Takedown 2019 hosted by Aalborg Roller Derby in Denmark.'
-    location: Nørresundby Idrætscenter
-    streetAddress: Lerumbakken 11
-    postalCode: 9400 Nørresundby
-  -
-    id: 'b-team-1'
-    boutDate: '2019-05-18'
-    title: 'B Team Bout'
-    home: 'Hulls Angels BEES'
-    home_logo: assets/img/logos/HARD-128x128.jpg
-    away: 'Mansfield B'
-    away_logo: assets/img/logos/MAMI-128x91.png
-    venue: 'Hulls Angels Roller Derby'
-    copy:
-    location: Sirus Academy West
-    streetAddress: Pickering Rd
-    addressLocality: Hull
-    addressRegion: East Riding of Yorkshire
-    postalCode: HU4 6TA
-  -
     id: 'bout-2'
     boutDate: '2019-06-01'
     title: 'British Championships WFTDA Tier 2 North'
@@ -44,6 +15,31 @@ events:
     addressRegion: City of Salford
     postalCode: M5 4WT
   -
+    id: 'OTA-Endurance-Scrim'
+    boutDate: '2019-06-22'
+    title: 'OTA Endurance Scrim'
+    venue: 'Hulls Angels Roller Derby'
+    copy: "HARD are hosting another BEAST MODE Endurance Scrim!<br>We would love you to come!<br>First whistle will be approximately 1:45pm, followed by 3 half an hour scrims.<br><a href='https://www.facebook.com/events/650227622094819/' title='OTA Scrim'>More info</a>"
+    location: Sirus Academy West
+    streetAddress: Pickering Rd
+    addressLocality: Hull
+    addressRegion: East Riding of Yorkshire
+    postalCode: HU4 6TA 
+  -
+    id: 'LBRD-V-HARD'
+    boutDate: '2019-06-29'
+    title: 'LBRD play HARD in a WFTDA sanctioned game!'
+    home: 'Lincolnshire Bombers'
+    home_logo: assets/img/logos/lbrd.png
+    away: 'Hulls Angels All Stars'
+    away_logo:  assets/img/logos/HARD-128x128.jpg
+    venue: 'Lincolnshire Bombers'
+    location: Vision West Notts
+    streetAddress: Derby Road
+    addressLocality: Mansfield
+    addressRegion: Nottinghamshire
+    postalCode: NG18 5BH
+  -
     id: 'bout-3'
     boutDate: '2019-07-06'
     title: 'British Championships WFTDA Tier 2 North'
@@ -53,7 +49,7 @@ events:
     away_logo: assets/img/logos/HARD-128x128.jpg
     venue: 'Wirral Savage Lilies'
     copy:
-    location: ARDwick Sports Hall
-    streetAddress: 225 Stockport Road
-    addressLocality: Manchester
-    postalCode: HU4 6TA 
+    location: Leasowe Leisure Centre
+    streetAddress: Twickenham Drive
+    addressLocality: Wallasey
+    postalCode: CH46 1PF 

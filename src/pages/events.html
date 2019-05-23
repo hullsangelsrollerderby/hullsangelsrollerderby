@@ -46,12 +46,14 @@ description: Upcoming HARD events.
             <p>Hosted By</p>
             <h3 class="event--venue" content="{{venue}}">{{venue}}</h3>
             {{#if copy}}
-              <p>{{copy}}</p> 
+              <p>{{{copy}}}</p> 
             {{/if}}
         </div>
         <div class="medium-3 cell event--image show-for-medium" itemprop="competitor" itemscope="" itemtype="http://schema.org/SportsTeam">
-            <meta itemprop="name" content="{{away}}">
-            <img class="show-for-medium" itemprop="logo" alt="{{away}}" src="{{root}}{{away_logo}}">
+          {{#if away}}
+          <meta itemprop="name" content="{{away}}">            
+          <img class="show-for-medium" itemprop="logo" alt="{{away}}" src="{{root}}{{away_logo}}">
+          {{/if}}
         </div>
       </div>
   {{/each}}
