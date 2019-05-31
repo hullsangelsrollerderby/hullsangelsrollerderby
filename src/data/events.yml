@@ -53,3 +53,13 @@ events:
     streetAddress: Twickenham Drive
     addressLocality: Wallasey
     postalCode: CH46 1PF 
+  -
+    id: 'academy'
+    boutDate: '2019-07-10'
+    title: 'Angel Academy: Beginners Sessions'
+    venue: 'Hulls Angels Roller Derby'
+    copy: "Hulls Angels are delighted to announce that we are opening our doors again for new skaters and officials!<br>We want you to join us as we take you through a 12 week beginners programme. During this programme, our fantastic coaches will suppport and guide through learning to skate, to starting contact or officiating your first All Star training game!<br>No experience is necessary! All we ask is that you are over the age of 18 and you identify as female or gender non-binary.<br><a href='https://www.facebook.com/events/851546218513141/' target='_blank'>More Info</a>"
+    location: Bonus Youth Performance Centre
+    streetAddress: Pickering Road
+    addressLocality: Hull
+    postalCode: HU4 7AE 
