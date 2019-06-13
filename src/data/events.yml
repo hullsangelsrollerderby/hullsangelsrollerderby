@@ -63,3 +63,14 @@ events:
     streetAddress: Pickering Road
     addressLocality: Hull
     postalCode: HU4 7AE 
+  -
+    id: 'Humber-Struck'
+    boutDate: '2019-10-26'
+    boutDate2: '2019-10-27'
+    title: 'Humber Struck 2019'
+    venue: 'Hulls Angels Roller Derby'
+    copy: 'Hulls Angels Roller Derby are very proud to announce<br><strong>HUMBER STRUCK 2019!</strong><br>This brand new <a href="https://wftda.com" title="WFTDA">WFTDA</a>, international sanctioned tournament is taking place over two glorious days in Hull, UK!<br>Eight <a href="https://wftda.com" title="WFTDA">WFTDA</a> teams from all over the UK and Europe,will fighting it out for top spot and a trophy! Not satisfied with just one track, this Tournament will take place over <strong>TWO</strong> tracks, with lots of non-stop derby action!<br>HARD have created this event as we are passionate to showcase <a href="https://wftda.com" title="WFTDA">WFTDA</a> teams in the UK and Europe that are determined to be the best they can be! These teams are athletic, revolutionary and driven to improve their way up the <a href="https://wftda.com" title="WFTDA">WFTDA</a> rankings!<br>More details will follow over the coming weeks! So watch <a href="https://www.facebook.com/events/383623295693808/" title="Humber Struck 2019">Facebook</a> for updates and make sure you get your ticket!<br><strong>WORK HARD - PLAY HARD - SKATE HARD</strong>'
+    location: Airco Arena
+    streetAddress: Walton Street
+    addressLocality: Kingston upon Hull
+    postalCode: HU3 6GA 
