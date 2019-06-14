@@ -30,7 +30,7 @@
     <meta name="msapplication-wide310x150logo" content="{{root}}assets/img/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="{{root}}assets/img/mstile-310x310.png" />  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{root}}assets/css/app-1.css">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
     <meta name="google-site-verification" content="EbTxLPqc4_uJSvA61zaAZ7htF7E4v6Gcb33fz0GxrUc" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133650136-1"></script>
@@ -49,13 +49,6 @@
   <div class="off-canvas-content" data-off-canvas-content>
     {{> header}}
 
-
-    {{#unlesspage 'tnt-the-northern-takedown'}}
-    <div class="news-alert">
-        <a href="/tnt-the-northern-takedown" title="View results - TNT - The Northern Takedown"><h1>TNT - The Northern Takedown<span>Overall Winners</span></h1></a>
-    </div>
-    {{/unlesspage}}
-
     {{#unlesspage 'get-involved'}}
       {{> banner}}
     {{/unlesspage}}
@@ -69,9 +62,9 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="{{root}}assets/js/app-1.js"></script>
+  <script src="{{root}}assets/js/app.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
   <script>
   window.addEventListener("load", function(){
   window.cookieconsent.initialise({

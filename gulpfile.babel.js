@@ -88,10 +88,10 @@ function sass() {
     autoprefixer({ browsers: COMPATIBILITY }),
 
     // UnCSS - Uncomment to remove unused styles in production
-    PRODUCTION && uncss.postcssPlugin(UNCSS_OPTIONS),
+  //   PRODUCTION && uncss.postcssPlugin(UNCSS_OPTIONS),
   ].filter(Boolean);
 
-  return gulp.src('src/assets/scss/app-1.scss')
+  return gulp.src('src/assets/scss/app.scss')
     .pipe($.sourcemaps.init())
     .pipe($.sass({
       includePaths: PATHS.sass

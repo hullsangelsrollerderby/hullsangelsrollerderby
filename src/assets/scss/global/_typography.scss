@@ -14,4 +14,8 @@ h1 {
 p {
   max-width: rem-calc(650);
   text-align: center;
+
+  a {
+    color: $ha-green;
+  }
 }
