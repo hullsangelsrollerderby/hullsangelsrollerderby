@@ -1,20 +1,5 @@
 events:
   -
-    id: 'bout-2'
-    boutDate: '2019-06-01'
-    title: 'British Championships WFTDA Tier 2 North'
-    home: 'Granite City Northern Fights'
-    home_logo: assets/img/logos/GCRDtransparentbg-128x128.png
-    away: 'Hulls Angels All Stars'
-    away_logo: assets/img/logos/HARD-128x128.jpg
-    venue: 'Arcadia Roller Derby'
-    copy:
-    location: University of Salford Sports Centre
-    streetAddress: University Road
-    addressLocality: Salford
-    addressRegion: City of Salford
-    postalCode: M5 4WT
-  -
     id: 'OTA-Endurance-Scrim'
     boutDate: '2019-06-22'
     title: 'OTA Endurance Scrim'
