@@ -23,7 +23,9 @@ description: Upcoming HARD events.
         </div>
         <div class="medium-3 cell event--image show-for-medium" itemprop="competitor" itemscope="" itemtype="http://schema.org/SportsTeam">
             <meta itemprop="name" content="{{home}}">
+            {{#if home_logo}}
             <img class="show-for-medium" itemprop="logo" alt="{{home}}" src="{{root}}{{home_logo}}">
+            {{/if}}
         </div>
         <div class="medium-6 cell event--info">
             <h1 class="event--title" itemprop="name" content="{{title}}">{{title}}</h1>
@@ -40,11 +42,17 @@ description: Upcoming HARD events.
             <img class="show-for-small-only" alt="{{home}}" src="{{root}}{{home_logo}}">
             {{#if away}}
               <p class="event--teams__vs">V</p>
+              {{#if away_logo}}
               <img class="show-for-small-only event--image-away" alt="{{away}}" src="{{root}}{{away_logo}}">
+              {{/if}}
               <h2 class="event--teams">{{away}}</h2>
             {{/if}}
             <p>Hosted By</p>
             <h3 class="event--venue" content="{{venue}}">{{venue}}</h3>
+            {{#if location}}
+            <p>Venue</p>
+            <h4 class="event--venue">{{location}}</h4>
+            {{/if}}
             {{#if copy}}
               <p>{{{copy}}}</p> 
             {{/if}}

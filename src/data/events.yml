@@ -1,16 +1,5 @@
 events:
   -
-    id: 'OTA-Endurance-Scrim'
-    boutDate: '2019-06-22'
-    title: 'OTA Endurance Scrim'
-    venue: 'Hulls Angels Roller Derby'
-    copy: "HARD are hosting another BEAST MODE Endurance Scrim!<br>We would love you to come!<br>First whistle will be approximately 1:45pm, followed by 3 half an hour scrims.<br><a href='https://www.facebook.com/events/650227622094819/' title='OTA Scrim'>More info</a>"
-    location: Sirus Academy West
-    streetAddress: Pickering Rd
-    addressLocality: Hull
-    addressRegion: East Riding of Yorkshire
-    postalCode: HU4 6TA 
-  -
     id: 'LBRD-V-HARD'
     boutDate: '2019-06-30'
     title: 'LBRD play HARD in a WFTDA sanctioned game!'
@@ -43,10 +32,25 @@ events:
     boutDate: '2019-07-10'
     title: 'Angel Academy: Beginners Sessions'
     venue: 'Hulls Angels Roller Derby'
-    copy: "Hulls Angels are delighted to announce that we are opening our doors again for new skaters and officials!<br>We want you to join us as we take you through a 12 week beginners programme. During this programme, our fantastic coaches will suppport and guide through learning to skate, to starting contact or officiating your first All Star training game!<br>No experience is necessary! All we ask is that you are over the age of 18 and you identify as female or gender non-binary.<br><a href='https://www.facebook.com/events/851546218513141/' target='_blank'>More Info</a>"
+    copy: "Hulls Angels are delighted to announce that we are opening our doors again for new skaters and officials!<br><br>We want you to join us as we take you through a 12 week beginners programme. During this programme, our fantastic coaches will suppport and guide through learning to skate, to starting contact or officiating your first All Star training game!<br><br>No experience is necessary! All we ask is that you are over the age of 18 and you identify as female or gender non-binary.<br><a href='https://www.facebook.com/events/851546218513141/' target='_blank'>More Info</a>"
     location: Bonus Youth Performance Centre
     streetAddress: Pickering Road
     addressLocality: Hull
+    postalCode: HU4 7AE
+  -
+    id: 'inhuman-angels-vs-grimsby-roller-derby'
+    boutDate: '2019-08-17'
+    title: 'Inhuman Angels V Grimsby Roller Derby'
+    home: 'Inhuman Angels'
+    home_logo: assets/img/logos/inhuman-angels.gif
+    away: 'Grimsby Roller Derby'
+    away_logo: assets/img/logos/grimsby-roller-derby.jpg
+    venue: 'Hulls Angels Roller Derby'
+    copy: 'The newly formed challenge team Inhuman Angels (a wonderful mash of Hulls Angels Roller Derby and The Inhuman League) take on the formidable Grimsby Roller Derby in a battle of armageddon proportions!<br><br>But more than this, you can take part in a WDTFA alligned rookie scrim! Be a part of the The Lightning Bolts (white) or The Thunder Rolls (black)!<br><br>To sign up, please find the sign up form and more information on <a href="https://www.facebook.com/events/351174598881042" target="_blank">Facebook</a>!<br><br>Tickets £4'
+    location: Sirius Academy West
+    streetAddress: Pickering Rd
+    addressLocality: Hull
+    addressRegion: East Riding of Yorkshire
     postalCode: HU4 7AE 
   -
     id: 'Humber-Struck'
@@ -54,7 +58,7 @@ events:
     boutDate2: '2019-10-27'
     title: 'Humber Struck 2019'
     venue: 'Hulls Angels Roller Derby'
-    copy: 'Hulls Angels Roller Derby are very proud to announce<br><strong>HUMBER STRUCK 2019!</strong><br>This brand new <a href="https://wftda.com" title="WFTDA">WFTDA</a>, international sanctioned tournament is taking place over two glorious days in Hull, UK!<br>Eight <a href="https://wftda.com" title="WFTDA">WFTDA</a> teams from all over the UK and Europe, will be fighting it out for top spot and a trophy! Not satisfied with just one track, this Tournament will take place over <strong>TWO</strong> tracks, with lots of non-stop derby action!<br>HARD have created this event as we are passionate to showcase <a href="https://wftda.com" title="WFTDA">WFTDA</a> teams in the UK and Europe that are determined to be the best they can be! These teams are athletic, revolutionary and driven to improve their way up the <a href="https://wftda.com" title="WFTDA">WFTDA</a> rankings!<br>More details will follow over the coming weeks! So watch <a href="https://www.facebook.com/events/383623295693808/" title="Humber Struck 2019">Facebook</a> for updates and make sure you get your ticket!<br><strong>WORK HARD - PLAY HARD - SKATE HARD</strong>'
+    copy: 'Hulls Angels Roller Derby are very proud to announce<br><strong>HUMBER STRUCK 2019!</strong><br><br>This brand new <a href="https://wftda.com" title="WFTDA">WFTDA</a>, international sanctioned tournament is taking place over two glorious days in Hull, UK!<br><br>Eight <a href="https://wftda.com" title="WFTDA">WFTDA</a> teams from all over the UK and Europe, will be fighting it out for top spot and a trophy! Not satisfied with just one track, this Tournament will take place over <strong>TWO</strong> tracks, with lots of non-stop derby action!<br><br>HARD have created this event as we are passionate to showcase <a href="https://wftda.com" title="WFTDA">WFTDA</a> teams in the UK and Europe that are determined to be the best they can be! These teams are athletic, revolutionary and driven to improve their way up the <a href="https://wftda.com" title="WFTDA">WFTDA</a> rankings!<br><br>More details will follow over the coming weeks! So watch <a href="https://www.facebook.com/events/383623295693808/" title="Humber Struck 2019">Facebook</a> for updates and make sure you get your ticket!<br><br><strong>WORK HARD - PLAY HARD - SKATE HARD</strong>'
     location: Airco Arena
     streetAddress: Walton Street
     addressLocality: Kingston upon Hull
