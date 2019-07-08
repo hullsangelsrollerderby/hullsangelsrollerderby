@@ -52,3 +52,8 @@ members:
     img2: assets/img/teams/all-stars/f-bomb-19-fun.jpg
     number: 19
     name: 'F-Bomb'
+  -
+    img1: assets/img/teams/bees/dread-metal-64.jpg
+    img2: assets/img/teams/bees/dread-metal-64-fun.jpg
+    number: 64
+    name: 'Dread Metal'
