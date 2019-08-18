@@ -53,6 +53,17 @@ events:
     addressRegion: East Riding of Yorkshire
     postalCode: HU4 7AE 
   -
+    id: 'british-championship-playoffs'
+    boutDate: '2019-09-21'
+    boutDate2: '2019-09-22'
+    title: 'British Championships Playoffs'
+    venue: 'British Championships'
+    copy: 'Having won Tier 2 North HARD will be traveling to Stoke-on-Trent to battle against the other Tier 2 qualifiers to see who is the overall Tier 2 Champion!<br><br><strong>WORK HARD - PLAY HARD - SKATE HARD</strong>'
+    location: Fenton Manor Sports Complex
+    streetAddress: City Road
+    addressLocality: Stoke-on-Trent
+    postalCode: ST4 2RR 
+  -
     id: 'Humber-Struck'
     boutDate: '2019-10-26'
     boutDate2: '2019-10-27'
