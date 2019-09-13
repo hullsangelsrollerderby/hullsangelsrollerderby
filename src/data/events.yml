@@ -53,6 +53,20 @@ events:
     addressRegion: East Riding of Yorkshire
     postalCode: HU4 7AE 
   -
+    id: 'b-team-1'
+    boutDate: '2019-10-19'
+    title: "Newcastle's North Cs v Hulls Angels Bees"
+    home: "Newcastle's North Cs"
+    home_logo: assets/img/logos/newcastle-roller-girls.jpg
+    away: 'Hulls Angels Bees'
+    away_logo: assets/img/logos/HARD-128x128.jpg
+    venue: 'Newcastle Roller Girls'
+    copy:
+    location: Benfield Sports Centre
+    streetAddress: Benfield Road
+    addressLocality: Newcastle upon Tyne
+    postalCode: NE6 4NU
+  -
     id: 'british-championship-playoffs'
     boutDate: '2019-09-21'
     boutDate2: '2019-09-22'
