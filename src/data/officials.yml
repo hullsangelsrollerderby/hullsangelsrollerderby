@@ -9,9 +9,6 @@ members:
     img2: assets/img/teams/refs/polar-bear.jpg
     name: 'Polar Bear'
   -
-    img1: assets/img/teams/refs/gwen-refani.jpg
-    name: 'Gwen Refani'
-  -
     img1: assets/img/teams/refs/douhty.jpg
     name: 'Doughty'
   -
