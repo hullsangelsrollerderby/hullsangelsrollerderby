@@ -28,16 +28,6 @@ events:
     addressLocality: Wallasey
     postalCode: CH46 1PF 
   -
-    id: 'academy'
-    boutDate: '2019-07-10'
-    title: 'Angel Academy: Beginners Sessions'
-    venue: 'Hulls Angels Roller Derby'
-    copy: "Hulls Angels are delighted to announce that we are opening our doors again for new skaters and officials!<br><br>We want you to join us as we take you through a 12 week beginners programme. During this programme, our fantastic coaches will suppport and guide through learning to skate, to starting contact or officiating your first All Star training game!<br><br>No experience is necessary! All we ask is that you are over the age of 18 and you identify as female or gender non-binary.<br><a href='https://www.facebook.com/events/851546218513141/' target='_blank'>More Info</a>"
-    location: Bonus Youth Performance Centre
-    streetAddress: Pickering Road
-    addressLocality: Hull
-    postalCode: HU4 7AE
-  -
     id: 'inhuman-angels-vs-grimsby-roller-derby'
     boutDate: '2019-08-17'
     title: 'Inhuman Angels V Grimsby Roller Derby'
@@ -87,4 +77,14 @@ events:
     location: Airco Arena
     streetAddress: Walton Street
     addressLocality: Kingston upon Hull
-    postalCode: HU3 6GA 
+    postalCode: HU3 6GA
+  -
+    id: 'academy'
+    boutDate: '2019-11-06'
+    title: 'Angel Academy: Beginners Sessions'
+    venue: 'Hulls Angels Roller Derby'
+    copy: "Hulls Angels are delighted to announce that we are opening our doors again for new skaters and officials!<br><br>We want you to join us as we take you through a 12 week beginners programme. During this programme, our fantastic coaches will suppport and guide through learning to skate, to starting contact or officiating your first All Star training game!<br><br>No experience is necessary! All we ask is that you are over the age of 18 and you identify as female or gender non-binary.<br>For more information please contact us through our <a href='https://www.facebook.com/hullsangelsrollerderby/' target='_blank'>Facebook page</a>"
+    location: Bonus Youth Performance Centre
+    streetAddress: Pickering Road
+    addressLocality: Hull
+    postalCode: HU4 7AE
