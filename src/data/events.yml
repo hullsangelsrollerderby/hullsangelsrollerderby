@@ -88,3 +88,14 @@ events:
     streetAddress: Pickering Road
     addressLocality: Hull
     postalCode: HU4 7AE
+  -
+    id: 'WFTDA Open scrim 19th Nov 2019'
+    boutDate: '2019-11-19'
+    title: 'Free WFTDA Mixed Ability Scrim'
+    venue: 'Hulls Angels Roller Derby'
+    copy: "Join us for a free WFTDA Scrim!<br>Warm - up - 19:00 - 19:20.<br>First Whistle - 19:30<br>Finish 21:00<br>Sign Up <a href='https://www.facebook.com/events/535822556992898/permalink/535829466992207/' target='_blank'> here</a>"
+    location: Sirius Academy West
+    streetAddress: Pickering Rd
+    addressLocality: Hull
+    addressRegion: East Riding of Yorkshire
+    postalCode: HU4 7AE 
