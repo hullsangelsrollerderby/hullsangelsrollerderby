@@ -1,0 +1,111 @@
+events:
+  -
+    id: 'LBRD-V-HARD'
+    boutDate: '2019-06-30'
+    title: 'LBRD play HARD in a WFTDA sanctioned game!'
+    home: 'Lincolnshire Bombers'
+    home_logo: assets/img/logos/lbrd.png
+    away: 'Hulls Angels All Stars'
+    away_logo:  assets/img/logos/HARD-128x128.jpg
+    venue: 'Lincolnshire Bombers'
+    location: Vision West Notts
+    streetAddress: Derby Road
+    addressLocality: Mansfield
+    addressRegion: Nottinghamshire
+    postalCode: NG18 5BH
+  -
+    id: 'bout-3'
+    boutDate: '2019-07-06'
+    title: 'British Championships WFTDA Tier 2 North'
+    home: 'Hallam Hellcats Roller Derby'
+    home_logo: assets/img/logos/HALL-128x128.jpg
+    away: 'Hulls Angels All Stars'
+    away_logo: assets/img/logos/HARD-128x128.jpg
+    venue: 'Wirral Savage Lilies'
+    copy:
+    location: Leasowe Leisure Centre
+    streetAddress: Twickenham Drive
+    addressLocality: Wallasey
+    postalCode: CH46 1PF 
+  -
+    id: 'inhuman-angels-vs-grimsby-roller-derby'
+    boutDate: '2019-08-17'
+    title: 'Inhuman Angels V Grimsby Roller Derby'
+    home: 'Inhuman Angels'
+    home_logo: assets/img/logos/inhuman-angels.gif
+    away: 'Grimsby Roller Derby'
+    away_logo: assets/img/logos/grimsby-roller-derby.jpg
+    venue: 'Hulls Angels Roller Derby'
+    copy: 'The newly formed challenge team Inhuman Angels (a wonderful mash of Hulls Angels Roller Derby and The Inhuman League) take on the formidable Grimsby Roller Derby in a battle of armageddon proportions!<br><br>But more than this, you can take part in a WDTFA alligned rookie scrim! Be a part of the The Lightning Bolts (white) or The Thunder Rolls (black)!<br><br>To sign up, please find the sign up form and more information on <a href="https://www.facebook.com/events/351174598881042" target="_blank">Facebook</a>!<br><br>Tickets £4'
+    location: Sirius Academy West
+    streetAddress: Pickering Rd
+    addressLocality: Hull
+    addressRegion: East Riding of Yorkshire
+    postalCode: HU4 7AE 
+  -
+    id: 'b-team-1'
+    boutDate: '2019-10-19'
+    title: "Newcastle's North Cs v Hulls Angels Bees"
+    home: "Newcastle's North Cs"
+    home_logo: assets/img/logos/newcastle-roller-girls.jpg
+    away: 'Hulls Angels Bees'
+    away_logo: assets/img/logos/HARD-128x128.jpg
+    venue: 'Newcastle Roller Girls'
+    copy:
+    location: Benfield Sports Centre
+    streetAddress: Benfield Road
+    addressLocality: Newcastle upon Tyne
+    postalCode: NE6 4NU
+  -
+    id: 'british-championship-playoffs'
+    boutDate: '2019-09-21'
+    boutDate2: '2019-09-22'
+    title: 'British Championships Playoffs'
+    venue: 'British Championships'
+    copy: 'Having won Tier 2 North HARD will be traveling to Stoke-on-Trent to battle against the other Tier 2 qualifiers to see who is the overall Tier 2 Champion!<br><br><strong>WORK HARD - PLAY HARD - SKATE HARD</strong>'
+    location: Fenton Manor Sports Complex
+    streetAddress: City Road
+    addressLocality: Stoke-on-Trent
+    postalCode: ST4 2RR 
+  -
+    id: 'Humber-Struck'
+    boutDate: '2019-10-26'
+    boutDate2: '2019-10-27'
+    title: 'Humber Struck 2019'
+    venue: 'Hulls Angels Roller Derby'
+    copy: 'Hulls Angels Roller Derby are very proud to announce<br><strong>HUMBER STRUCK 2019!</strong><br><br>This brand new <a href="https://wftda.com" title="WFTDA">WFTDA</a>, international sanctioned tournament is taking place over two glorious days in Hull, UK!<br><br>Eight <a href="https://wftda.com" title="WFTDA">WFTDA</a> teams from all over the UK and Europe, will be fighting it out for top spot and a trophy! Not satisfied with just one track, this Tournament will take place over <strong>TWO</strong> tracks, with lots of non-stop derby action!<br><br>HARD have created this event as we are passionate to showcase <a href="https://wftda.com" title="WFTDA">WFTDA</a> teams in the UK and Europe that are determined to be the best they can be! These teams are athletic, revolutionary and driven to improve their way up the <a href="https://wftda.com" title="WFTDA">WFTDA</a> rankings!<br><br>More details will follow over the coming weeks! So watch <a href="https://www.facebook.com/events/383623295693808/" title="Humber Struck 2019">Facebook</a> for updates and make sure you get your ticket!<br><br><strong>WORK HARD - PLAY HARD - SKATE HARD</strong>'
+    location: Airco Arena
+    streetAddress: Walton Street
+    addressLocality: Kingston upon Hull
+    postalCode: HU3 6GA
+  -
+    id: 'WFTDA Open scrim 18th Feb 2020'
+    boutDate: '2020-02-18'
+    title: 'Free WFTDA  Scrim'
+    venue: 'Hulls Angels Roller Derby'
+    copy: "Join us for a free WFTDA Scrim!<br>Warm - up - 19:00 - 19:20.<br>First Whistle - 19:30<br>Finish 21:00<br>Sign Up <a href='https://www.facebook.com/events/631486297420492/' target='_blank'> here</a>"
+    location: Sirius Academy West
+    streetAddress: Pickering Rd
+    addressLocality: Hull
+    addressRegion: East Riding of Yorkshire
+    postalCode: HU4 7AE 
+  -
+    id: 'academy'
+    boutDate: '2020-02-19'
+    title: 'Angel Academy: Beginners Sessions'
+    venue: 'Hulls Angels Roller Derby'
+    copy: "Hulls Angels Roller Derby are proud to be hosting our first beginners programme of 2020!<br><br>Welcome Rookies!<br><br>We are opening our doors once again to those of you who want to try something new and be a part of our inclusive, body positive and friendly league of diverse people!<br><br>Our beginners coach Stacey will guide you through a 12 week programme of skills, drills and contact training where you can learn the basics from how to stand on your own two feet to your first 'hits'!<br><br>Please don't worry if you have never skated before, this is what this programme is all about! Most people will be in exactly the same boat as you and we are here to support you on your own journey of growth and fitness.<br><br>We are also looking for skating officials, so if you feel that contact is not for you, we can guide you along the process of becoming a roller derby referee.<br><br>To apply, please fill in the sign up form that we have posted in the discussion segment of this event. We look forward to meeting you!<br><br>First session is free, then £6.50 thereafter which covers your kit hire and coaching.<br><br>REQUIREMENTS:<br>18 years old and above.<br>Female identifying or non-binary.<br>If you are male identifying we can teach you to skate with a view of becoming a skating official, but not for contact training.<br>For more information please contact us through our <a href='https://www.facebook.com/events/2591122041170844/' target='_blank'>Facebook event page</a>"
+    location: Bonus Youth Performance Centre
+    streetAddress: Pickering Road
+    addressLocality: Hull
+    postalCode: HU4 7AE
+  -
+    id: 'academy2'
+    boutDate: '2020-02-26'
+    title: 'Angel Academy: Beginners Sessions'
+    venue: 'Hulls Angels Roller Derby'
+    copy: "Hulls Angels Roller Derby are proud to be hosting our first beginners programme of 2020!<br><br>Welcome Rookies!<br><br>We are opening our doors once again to those of you who want to try something new and be a part of our inclusive, body positive and friendly league of diverse people!<br><br>Our beginners coach Stacey will guide you through a 12 week programme of skills, drills and contact training where you can learn the basics from how to stand on your own two feet to your first 'hits'!<br><br>Please don't worry if you have never skated before, this is what this programme is all about! Most people will be in exactly the same boat as you and we are here to support you on your own journey of growth and fitness.<br><br>We are also looking for skating officials, so if you feel that contact is not for you, we can guide you along the process of becoming a roller derby referee.<br><br>To apply, please fill in the sign up form that we have posted in the discussion segment of this event. We look forward to meeting you!<br><br>First session is free, then £6.50 thereafter which covers your kit hire and coaching.<br><br>REQUIREMENTS:<br>18 years old and above.<br>Female identifying or non-binary.<br>If you are male identifying we can teach you to skate with a view of becoming a skating official, but not for contact training.<br>For more information please contact us through our <a href='https://www.facebook.com/events/2591122041170844/' target='_blank'>Facebook event page</a>"
+    location: Bonus Youth Performance Centre
+    streetAddress: Pickering Road
+    addressLocality: Hull
+    postalCode: HU4 7AE

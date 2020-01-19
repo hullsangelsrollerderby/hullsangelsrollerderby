@@ -2,15 +2,9 @@ members:
   -
     name: 'Officials'
   -
-    img1: assets/img/teams/refs/ju.jpg
-    name: 'Ju'
-  -
     img1: assets/img/teams/refs/polar-bear.jpg
     img2: assets/img/teams/refs/polar-bear.jpg
     name: 'Polar Bear'
-  -
-    img1: assets/img/teams/refs/douhty.jpg
-    name: 'Doughty'
   -
     img1: assets/img/teams/refs/alison.jpg
     img2: assets/img/teams/refs/alison-fun.jpg    

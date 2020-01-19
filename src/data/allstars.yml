@@ -3,20 +3,20 @@ members:
     img1: assets/img/teams/all-stars/all-stars.gif
     name: 'All Stars'
   -
-    img1: assets/img/teams/all-stars/wilken-85.jpg
-    img2: assets/img/teams/all-stars/wilken-85-fun.jpg
-    number: 85
-    name: 'Wilken'
+    img1: assets/img/teams/all-stars/thrill-murray-10.jpg
+    img2: assets/img/teams/all-stars/thrill-murray-10-fun.jpg
+    number: 10
+    name: 'Thrill Murray'
   -
     img1: assets/img/teams/all-stars/milv-20.jpg
     img2: assets/img/teams/all-stars/milv-20-fun.jpg
     number: 20
     name: 'Milv'
   -
-    img1: assets/img/teams/all-stars/frost-spite-13.jpg
-    img2: assets/img/teams/all-stars/frost-spite-13-fun.jpg
-    number: 13
-    name: 'Frost Spite'
+    img1: assets/img/teams/all-stars/wilken-85.jpg
+    img2: assets/img/teams/all-stars/wilken-85-fun.jpg
+    number: 85
+    name: 'Wilken'
   -
     img1: assets/img/teams/all-stars/jaxx-57.jpg
     img2: assets/img/teams/all-stars/jaxx-57-fun.jpg
@@ -37,11 +37,6 @@ members:
     img2: assets/img/teams/all-stars/purdy-33-fun.jpg
     number: 33
     name: 'Purdy'
-  -
-    img1: assets/img/teams/all-stars/thrill-murray-10.jpg
-    img2: assets/img/teams/all-stars/thrill-murray-10-fun.jpg
-    number: 10
-    name: 'Thrill Murray'
   -
     img1: assets/img/teams/all-stars/dani-6.jpg
     img2: assets/img/teams/all-stars/dani-6-fun.jpg
