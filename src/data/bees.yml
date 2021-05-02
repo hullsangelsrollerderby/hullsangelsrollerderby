@@ -3,11 +3,6 @@ members:
     img1: assets/img/teams/bees/bees.gif
     name: 'Bees'
   -
-    img1: assets/img/teams/bees/lyn-D-structable-247.jpg
-    img2: assets/img/teams/bees/lyn-D-structable-247-fun.jpg
-    number: 247
-    name: 'Lyn D Structable'
-  -
     img1: assets/img/teams/bees/steve-l-kinevel-27.jpg
     img2: assets/img/teams/bees/steve-l-kinevel-27-fun.jpg
     number: 27
@@ -23,11 +18,6 @@ members:
     number: 64
     name: 'Dread Metal'  
   -
-    img1: assets/img/teams/bees/ko-98.jpg
-    img2: assets/img/teams/bees/ko-98-fun.jpg
-    number: 98
-    name: 'KO'
-  -
     img1: assets/img/teams/bees/ali-the-alien-169.jpg
     img2: assets/img/teams/bees/ali-the-alien-169-fun.jpg
     number: 169
@@ -42,11 +32,6 @@ members:
     img2: assets/img/teams/bees/jo-fun.jpg
     number: 66
     name: 'Jo'
-  -
-    img1: assets/img/teams/bees/peggy-pain-666.jpg
-    img2: assets/img/teams/bees/peggy-pain-666-fun.jpg
-    number: 666
-    name: 'Peggy Pain'
   -
     img1: assets/img/teams/bees/thundercat-31.jpg
     img2: assets/img/teams/bees/thundercat-31-fun.jpg

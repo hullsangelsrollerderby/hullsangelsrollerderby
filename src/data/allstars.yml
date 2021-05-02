@@ -8,20 +8,10 @@ members:
     number: 10
     name: 'Thrill Murray'
   -
-    img1: assets/img/teams/all-stars/milv-20.jpg
-    img2: assets/img/teams/all-stars/milv-20-fun.jpg
-    number: 20
-    name: 'Milv'
-  -
     img1: assets/img/teams/all-stars/wilken-85.jpg
     img2: assets/img/teams/all-stars/wilken-85-fun.jpg
     number: 85
     name: 'Wilken'
-  -
-    img1: assets/img/teams/all-stars/jaxx-57.jpg
-    img2: assets/img/teams/all-stars/jaxx-57-fun.jpg
-    number: 57
-    name: 'Jaxx'
   -
     img1: assets/img/teams/all-stars/melon-collie-30.jpg
     img2: assets/img/teams/all-stars/melon-collie-30-fun.jpg

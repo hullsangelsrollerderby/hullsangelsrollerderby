@@ -2,10 +2,10 @@ members:
   -
     name: 'Officials'
   -
-    img1: assets/img/teams/refs/polar-bear.jpg
-    img2: assets/img/teams/refs/polar-bear.jpg
-    name: 'Polar Bear'
-  -
     img1: assets/img/teams/refs/alison.jpg
     img2: assets/img/teams/refs/alison-fun.jpg    
-    name: 'Alison'
+    name: 'Firth'
+  -
+    img1: assets/img/teams/refs/sashay-away-ha.jpg
+    img2: assets/img/teams/refs/sashay-away-ha.jpg    
+    name: 'Sashay Away'
