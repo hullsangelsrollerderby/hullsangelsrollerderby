@@ -71,3 +71,6 @@ function checkdate(date) {
     return false;
   }
 }
+
+
+  $('#animatedModal10').foundation('open');
