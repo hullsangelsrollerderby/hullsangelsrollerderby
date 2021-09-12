@@ -21629,7 +21629,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('#animatedModal10').foundation('op
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/davealmond/Home/ha-zurbApp/src/assets/js/app.js */"./src/assets/js/app.js");
+module.exports = __webpack_require__(/*! /home/dave/hulls-angels-zurb/src/assets/js/app.js */"./src/assets/js/app.js");
 
 
 /***/ })
