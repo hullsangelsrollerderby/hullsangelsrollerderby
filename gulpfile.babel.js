@@ -32,7 +32,7 @@ function loadConfig() {
 // Build the "dist" folder by running all of the below tasks
 // Sass must be run later so UnCSS can search for used classes in the others assets.
 gulp.task('build',
-  gulp.series(clean, gulp.parallel(pages, javascript, images, copy), sass));
+  gulp.series(clean, gulp.parallel(pages, javascript, images, copy), sass, cname));
 //  gulp.series(clean, gulp.parallel(pages, javascript, images, copy), sass, styleGuide));
 
 // Build the site, run the server, and watch for file changes
@@ -69,6 +69,11 @@ function pages() {
 function resetPages(done) {
   panini.refresh();
   done();
+}
+
+function cname() {
+  return gulp.src('src/pages/CNAME')
+    .pipe(gulp.dest(PATHS.dist));
 }
 
 // Generate a style guide from the Markdown content and HTML template in styleguide/
