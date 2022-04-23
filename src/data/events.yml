@@ -1,10 +1,10 @@
 events:
   -
-    id: 'WFTDA Open scrim 18th Feb 2020'
-    boutDate: '2020-02-18'
-    title: 'Free WFTDA  Scrim'
+    id: 'HARD vs Durham - Closed scrim'
+    boutDate: '2022-05-15'
+    title: 'Hulls Angels vs Durham'
     venue: 'Hulls Angels Roller Derby'
-    copy: "Join us for a free WFTDA Scrim!<br>Warm - up - 19:00 - 19:20.<br>First Whistle - 19:30<br>Finish 21:00<br>Sign Up <a href='https://www.facebook.com/events/631486297420492/' target='_blank'> here</a>"
+    copy: "Closed scrim 1pm to 3pm"
     location: Sirius Academy West
     streetAddress: Pickering Rd
     addressLocality: Hull
