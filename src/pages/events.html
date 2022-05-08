@@ -27,7 +27,7 @@ description: Upcoming HARD events.
             {{/if}}
         </div>
         <div class="medium-6 cell event--info">
-            <h1 class="event--title" itemprop="name" content="{{title}}">{{title}}</h1>
+            <h1 class="event--title" itemprop="name" content="{{title}}">{{{title}}}</h1>
             <div class="event--date-wrapper">
               <time class="event--date" datetime="{{boutDate}}" itemprop="startDate" content="{{boutDate}}">{{#formatdate}}{{boutDate}}{{/formatdate}}</time>
               {{#if boutDate2}}
