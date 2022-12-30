@@ -5,3 +5,4 @@ bower_componentss
 *.swp
 .cache
 .idea
+dist
